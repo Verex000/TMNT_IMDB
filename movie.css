@@ -1,0 +1,134 @@
+/*Kevin Bui, AG, 1271124 HW2
+This is styling used for the webpage review for TMNT movie*/
+#banner {
+	background-image: url('https://webster.cs.washington.edu/images/rancidbannerbg.png');
+}
+
+#banner img {
+	display: block;
+	height: 50px;
+	margin: auto;
+}
+
+body {
+	background-image: url('https://webster.cs.washington.edu/images/moviebg.png');
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#bottom {
+	background-color: #A2B964;
+	clear: right;
+	padding: 5px;
+	text-align: center;
+}
+
+.column {
+	margin-top: 2%;
+	overflow: auto;
+	width: 47%;
+}
+
+.column img {
+	float: left;
+	margin-right: 5px;
+}
+
+#general-info {
+	padding: 10pt;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 24pt;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+.left {
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#leftSide {
+	width: 550px;
+}
+
+li, ul {
+	list-style-type: none;
+	margin: 0;	
+	padding: 0;
+}
+
+#overall {
+	background-color: #EEEEEE;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	margin: auto;
+	overflow: auto;
+	width: 800px;	
+}
+
+#overview {
+	background-color: #A2B964;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	width: 250px;
+	overflow: auto;
+}
+
+#overview dt {
+	font-weight: bold;
+	margin-top: 10pt;
+}
+
+#overview img {
+	clear: right;
+	float: right;
+	margin-bottom: 10pt;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.review {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 20px;
+	font-family: Georgia, "Times New Roman", serif; 
+	font-size: 10pt;
+	padding: 8px;
+}
+
+.reviewer-info {
+	margin-bottom: 20pt;
+	font-size: 10pt;
+}
+
+.review p {
+	margin: 0; 
+}
+
+.right {
+	float: right;
+	margin-right: 2%;
+}
+
+#rottenBar{
+	background-image: url('https://webster.cs.washington.edu/images/rottenlargebg.png');
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	height: 83px;
+	vertical-align: bottom;
+}
+
+#rottenBar img {
+	vertical-align: bottom;
+}
+
+#validators {
+	float: right;
+}
